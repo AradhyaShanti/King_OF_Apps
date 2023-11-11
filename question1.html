@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level1 / Question1</title>
+</head>
+<body background="lily.jpg">
+    <center>
+        <h1>Question 1</h1>
+        <br>
+        <br>
+        <h3>In which direction does the sunrise?</h3>
+        <br>
+        <br>
+      <p> <pre><button class="yellow" onclick="east()">East</button>        <button class="green" onclick="north()" id="north">North</button>  </pre> </p>
+    </center>
+</body>
+<script lang="javascript"> 
+    function east() {
+        window.location.replace("question2.html");
+        window.location="question2.html";
+    }
+     function north() {
+            window.location.replace("index.html");
+
+        }
+</script>
+
+<style lang="css">
+    h3{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .green{
+        background-color: green;
+    }
+</style>
+</html>

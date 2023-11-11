@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="cong.jpg">
+    <center> 
+        <h1>Congratulations</h1>
+        <br>
+        <br>
+        <p><pre> ✨  <img src="trophy.jpg">   ✨</pre></p>
+        <br>
+        <br>
+        <h4>Click to play</h4>
+        <button onclick="play()">Play Game</button>
+        <h4>Double click to study about science</h4>
+        <button ondblclick="study()">Study</button>            
+        <br><br>
+
+    </center>
+</body>
+<script lang="script.js">
+    
+    function play() {
+        window.location.replace("games.html");
+        window.location="games.html";
+    }
+    function study()
+    {
+        window.location.replace("study science.html");
+        window.location = "study science.html";
+    }
+</script>
+
+<style lang="css">
+    pre{
+        font-size: 20px;
+    }
+    
+</style>
+</html>
